@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
 
 @Entity
+@Table(name="FilesEntity")	
 public class FilesEntity 
 {
 	@Id
